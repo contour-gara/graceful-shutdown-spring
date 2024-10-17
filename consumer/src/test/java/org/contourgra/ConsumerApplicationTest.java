@@ -9,10 +9,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class ConsumerApplicationTest {
     @Autowired
-    Temp temp;
+    HelloConsumer helloConsumer;
 
     @Test
     void contextLoads() {
-        assertThat(temp).isNotNull();
+        assertThat(helloConsumer).isNotNull();
     }
 }
